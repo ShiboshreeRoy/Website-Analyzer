@@ -2,11 +2,10 @@
 
 **Project Name**: Website Analyzer Extension
 
-
-#Version : 1.0.1
-#Author : Shiboshree Roy
-#Dev : Shiboshree Roy
-#Date : 22-01-25
+# Version : 1.0.1
+# Author : Shiboshree Roy
+# Dev : Shiboshree Roy
+# Date : 22-01-25
 
 **Description**:  
 Website Analyzer Extension is a browser extension designed to provide real-time analytics about a website. It shows traffic data for a particular website, including total visits by date, day, month, and year. Additionally, it provides insights into the health of the website, including its uptime, performance, and click statistics. This tool is ideal for webmasters, marketers, and developers who want to track and improve website performance and user engagement.
@@ -41,4 +40,4 @@ Website Analyzer Extension is a browser extension designed to provide real-time 
 
 1. **Clone the repository**:  
    ```bash
-   git clonehttps://github.com/ShiboshreeRoy/Website-Analyzer.git```
+   git clonehttps://github.com/ShiboshreeRoy/Website-Analyzer.git
