@@ -1,0 +1,24 @@
+{
+    "manifest_version": 3,
+    "name": "Advanced Website Analyzer",
+    "author" : "Shiboshree Roy",
+    "Dev" : "Shiboshree Roy",
+    "version": "1.0.0",
+    "description": "Real-time website analyzer with advanced features.",
+    "permissions": ["tabs", "scripting", "activeTab"],
+    "host_permissions": ["<all_urls>"],
+    "background": {
+      "service_worker": "./config/background.js"
+    },
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": "./app/Images/icon.png"
+    },
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["./config/content.js"]
+      }
+    ]
+  }
+  
